@@ -66,9 +66,9 @@ To run the application and start interacting with the AI chat bot interface, fol
    ```
    
    The Default is...
-   ...
+   ```
    python Wolfs_Bot_of_Knowledge.py
-   ...
+   ```
    
    Replace `app.py` with the main script name of the front end application if it differs.
 
