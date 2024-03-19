@@ -41,7 +41,7 @@ With your Conda environment ready and activated, proceed to install the required
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-github-repository/ai-chat-bot-interface.git
+   git clone https://github.com/WolfLycanorcant/Wolf-s-Bot-of-Knowledge.git
    ```
 2. Navigate to the repository's root directory:
    ```
