@@ -16,7 +16,7 @@ logger.add("app.log", rotation="500 MB", level="INFO")
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="not-needed")
 
 # Replace these with your actual details
-SERPER_API_KEY = "ae7a44f67c3be6634ed4e552e62eb8811e24f444"
+SERPER_API_KEY = "put_your_serper_api_wrapper_api_here"
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 history = [
