@@ -21,16 +21,18 @@ Ensure you have Python 3.11 installed on your system to guarantee compatibility 
 
 ### Installing LMStudio
 
-Before setting up the project, you need to install LMStudio. Visit the LMStudio official documentation for detailed installation instructions, as the process may vary depending on your operating system and setup preferences.
+Before setting up the project, you need to install LMStudio. Visit the LMStudio official documentation for detailed installation instructions, as the process may vary depending on your operating system and setup preferences. `https://lmstudio.ai/`
 
 ### Setting Up a Conda Environment
 
 1. If you don't have Conda installed, download and install Anaconda or Miniconda from their respective websites.
-2. Once installed, open your terminal or command prompt and create a new Conda environment by running:
+   to get to your windows command line (which you need access to for this to work)
+Click the Start menu or press the Windows key, type "cmd" or "Command Prompt" in the search bar, then select the Command Prompt application from the search results.
+3. Once installed, open your terminal or command prompt and create a new Conda environment by running:
    ```
    conda create --name ai-chat-bot python=3.11
    ```
-3. Activate the newly created environment:
+4. Activate the newly created environment:
    ```
    conda activate ai-chat-bot
    ```
@@ -45,7 +47,7 @@ With your Conda environment ready and activated, proceed to install the required
    ```
 2. Navigate to the repository's root directory:
    ```
-   cd ai-chat-bot-interface
+   cd Wolf-s-Bot-of-Knowledge
    ```
 3. Install the requirements by running:
    ```
@@ -59,8 +61,9 @@ This command will install all the necessary dependencies listed in the `requirem
 To run the application and start interacting with the AI chat bot interface, follow these steps:
 
 1. Ensure your LMStudio backend is up and running. Refer to the LMStudio documentation for instructions on starting the backend server.
-2. With your backend ready, navigate to the root directory of the cloned repository (if you aren't already there).
-3. Run the front end application by executing:
+   Link to LM Studio's page `https://lmstudio.ai/`
+3. With your backend ready, navigate to the root directory of the cloned repository (if you aren't already there).
+4. Run the front end application by executing:
    ```
    python app.py
    ```
