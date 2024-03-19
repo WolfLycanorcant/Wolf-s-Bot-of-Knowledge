@@ -92,8 +92,8 @@ After obtaining your API key, you'll need to configure it within the project for
 
 1. Open the project folder in your preferred file editor.
 2. Locate the Python file responsible for web search functionality (usually `app.py` or a similarly named file).
-3. Find the line of code where the API key needs to be set, which looks like `SERPER_API_KEY = "YOUR_API_KEY_HERE"`.
-4. Replace `YOUR_API_KEY_HERE` with your actual Serper.dev Google Wrapper API key, ensuring to save the changes.
+3. Find the line of code where the API key needs to be set, which looks like `SERPER_API_KEY = "put_your_serper_api_wrapper_api_here"`.
+4. Replace `put_your_serper_api_wrapper_api_here` with your actual Serper.dev Google Wrapper API key, ensuring to save the changes.
 
 This will allow the application to perform web searches using your Serper.dev API key.
 
