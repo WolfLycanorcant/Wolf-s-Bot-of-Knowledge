@@ -1,0 +1,9 @@
+openai
+loguru
+requests
+temp
+gradio
+pdf2image
+pytesseract
+jsonlib
+openai
