@@ -41,7 +41,7 @@ With your Conda environment ready and activated, proceed to install the required
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/WolfLycanorcant/Wolf-s-Bot-of-Knowledge.git
+   git clone https://github.com/your-github-repository/ai-chat-bot-interface.git
    ```
 2. Navigate to the repository's root directory:
    ```
@@ -63,9 +63,13 @@ To run the application and start interacting with the AI chat bot interface, fol
 3. Run the front end application by executing:
    ```
    python app.py
-   [The Default is...]
-   python Wolfs_Bot_of_Knowledge.py
    ```
+   
+   The Default is...
+   ...
+   python Wolfs_Bot_of_Knowledge.py
+   ...
+   
    Replace `app.py` with the main script name of the front end application if it differs.
 
 This will launch the front end interface of the AI chat bot, connecting it to the LMStudio backend. You can now begin interacting with the AI, upload documents, and utilize the web search functionality directly from the interface.
@@ -92,3 +96,7 @@ After obtaining your API key, you'll need to configure it within the project for
 4. Replace `YOUR_API_KEY_HERE` with your actual Serper.dev Google Wrapper API key, ensuring to save the changes.
 
 This will allow the application to perform web searches using your Serper.dev API key.
+
+## Using the Program
+
+After running the program, navigate to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) in your web browser to use the program.
