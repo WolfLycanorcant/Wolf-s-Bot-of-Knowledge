@@ -41,7 +41,7 @@ With your Conda environment ready and activated, proceed to install the required
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/WolfLycanorcant/Wolf-s-Bot-of-Knowledge.git
+   git clone https://github.com/your-github-repository/ai-chat-bot-interface.git
    ```
 2. Navigate to the repository's root directory:
    ```
@@ -62,11 +62,33 @@ To run the application and start interacting with the AI chat bot interface, fol
 2. With your backend ready, navigate to the root directory of the cloned repository (if you aren't already there).
 3. Run the front end application by executing:
    ```
+   python app.py
+   [The Default is...]
    python Wolfs_Bot_of_Knowledge.py
    ```
+   Replace `app.py` with the main script name of the front end application if it differs.
 
 This will launch the front end interface of the AI chat bot, connecting it to the LMStudio backend. You can now begin interacting with the AI, upload documents, and utilize the web search functionality directly from the interface.
 
 ## Conclusion
 
 This Front End AI Chat Bot Interface project represents a significant step forward in creating interactive and user-friendly AI applications. By leveraging the power of LMStudio for backend processing, we're able to offer a sophisticated, feature-rich user experience. Follow the setup instructions to get started and explore the capabilities of this project.
+
+## Obtaining a Google Wrapper API Key from Serper.dev
+
+For certain functionalities, our project requires a Google Wrapper API key, which can be obtained for free from Serper.dev. Follow these steps to sign up and get your API key:
+
+1. Visit [Serper.dev](https://serper.dev) in your web browser.
+2. Sign up for an account by providing the necessary information.
+3. Once signed up, navigate to the dashboard to find your free Google Wrapper API key.
+
+## Configuring the Serper Wrapper API Key in the Project
+
+After obtaining your API key, you'll need to configure it within the project for the web search functionality to work. Here's how you can do that:
+
+1. Open the project folder in your preferred file editor.
+2. Locate the Python file responsible for web search functionality (usually `app.py` or a similarly named file).
+3. Find the line of code where the API key needs to be set, which might look like `api_key = "YOUR_API_KEY_HERE"`.
+4. Replace `YOUR_API_KEY_HERE` with your actual Serper.dev Google Wrapper API key, ensuring to save the changes.
+
+This will allow the application to perform web searches using your Serper.dev API key.
